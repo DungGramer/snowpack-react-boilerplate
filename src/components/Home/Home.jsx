@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react';
-import logo from './logo.svg';
+import logo from '/assets/images/logo.svg';
 import styles from './Home.module.scss';
 
 function Home() {

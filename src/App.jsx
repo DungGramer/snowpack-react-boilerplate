@@ -1,12 +1,12 @@
-import { Switch, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom";
 import './App.scss';
 import Home from '@components/Home/Home';
 
 function App() {
   return (
-    <Switch>
-      <Route path="/" exact component={Home} />
-    </Switch>
+    <Routes>
+      <Route path="/" exact element={<Home />} />
+    </Routes>
   );
 }
 

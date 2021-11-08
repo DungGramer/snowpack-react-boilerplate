@@ -3,8 +3,7 @@
     "baseUrl": ".",
     "sourceMap": true,
     "jsx": "react",
-    "moduleResolution": "node",
-    "outDir": "dist",
+    "outDir": "build",
 
     //Update this path as necessary
     "paths": {
@@ -15,7 +14,7 @@
   "include": ["src/**/*"],
 
   //Add any build/compiled folders here to stop vscode searching those
-  "exclude": ["node_modules", "dist"],
+  "exclude": ["node_modules", "build"],
 
   "files.exclude": {
     "node_modules": true

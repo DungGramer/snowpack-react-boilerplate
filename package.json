@@ -4,7 +4,8 @@
   "license": "ISC",
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build"
+    "build": "snowpack build",
+    "serve": "serve ./build"
   },
   "dependencies": {
     "react": "^17.0.2",
